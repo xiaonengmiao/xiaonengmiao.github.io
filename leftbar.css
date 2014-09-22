@@ -1,0 +1,21 @@
+#leftbar{
+		float: left;
+		width: 200px;
+		height: 0px;
+	}
+	#leftbar a{
+	        font-size: 12pt;
+		font-family: "Arial", "Verdana";
+		margin-left: 30px;
+		margin-top: 20px;
+		padding: 10px;
+		padding-left: 30px;
+		display: block;
+		text-decoration: none;
+		background: #026D81;
+		color: white;
+		border-radius: 25px;
+	}
+	#leftbar a:hover{
+		color: #039EBA;
+	}
