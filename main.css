@@ -1,0 +1,50 @@
+	h1{
+		font-family: "Arial" "Verdana" Sans-serif;
+	}
+	h2{
+		font-family: "Arial" "Verdana" Sans-serif;
+	}
+	p{
+		font-family: "Arial" "Verdana";
+		color: white;
+		margin-top: 20px;
+		width: 600px;
+	}
+
+	li{
+		margin-left: 50px;
+	}
+	
+	#container{
+		z-index:0;
+		position:absolute;
+		margin-top: 0px;
+		height: 0px;
+		width: 100%;
+	}
+	
+	#info{
+		z-index:0;
+		border-radius: 25px;
+		position:absolute;
+		margin-left: 230px;
+		margin-top: 20px;
+		height: 300px;
+		width: 70%;
+		background: #026D81;
+		color: white;
+		padding: 30px;
+	}
+	#info h2{
+		font-size: 12pt;
+		font-weight: normal;
+	}
+	#research p{
+		margin-top: 20px;
+		color: yellow;
+	}
+	#research p a{
+		color: yellow;
+	}
+
+	

@@ -1,50 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Xiaoyu Wei's Homepage</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+    <script> 
+    $(function(){
+      $("#SB").load("sidebar.htm"); 
+    });
+    </script> 
 <link rel="stylesheet" type="text/css" href="init.css">
 <link rel="stylesheet" type="text/css" href="cloud.css">
 <link rel="stylesheet" type="text/css" href="leftbar.css">
-<style>
-	
-	h1{
-		font-family: "Arial" "Verdana" Sans-serif;
-	}
-	h2{
-		font-family: "Arial" "Verdana" Sans-serif;
-	}
-	
-	#container{
-		z-index:0;
-		position:absolute;
-		margin-top: 0px;
-		height: 0px;
-		width: 100%;
-	}
-	
-	#info{
-		z-index:0;
-		border-radius: 25px;
-		position:absolute;
-		margin-left: 230px;
-		margin-top: 20px;
-		height: 300px;
-		width: 80%;
-		background: #026D81;
-		color: white;
-		padding: 30px;
-	}
-	#info h2{
-		font-size: 12pt;
-		font-weight: normal;
-	}
-	#info p{
-		margin-top: 20px;
-		color: yellow;
-	}
-	#info p a{
-		color: yellow;
-	}
-</style>
+<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
 <div id="clouds">
@@ -55,21 +22,13 @@
 	<div class="cloud x5"></div>
 	
 	<div id="container">
-		<div id="leftbar">
-			<a href="index.htm">Research</a>
-			<a href="index.htm">Teaching</a>
-			<a href="http://blog.wxyzg.com">Blog</a>
-			<a href="http://www.github.com/xywei">Codes</a>
-			<a href="index.htm">CV</a>
-			<a href="contact.htm">Contact</a>
-		</div>
+		<div id="SB"></div>
 
 		<div id="info">
-			<h1 id="name">Xiaoyu WEI</h1>
-			<h2 id="Institution">The Hong Kong University of Science and Technology</h2>
-			<p>Note:</br>This site is currently under construction. 
-	</br>To contact me, pleaze <a href="mailto:wxy0516@gmail.com">send me an e-mail</a>.
-	</br>Sorry for the inconvenience ^_^</p>
+			<h1 id="name">Xiaoyu Wei</h1>
+			<h2 id="job"> PhD Candidate</h2>
+			<p id="introduction">I received my BSc degree in computational mathematics from Beijing University in 2014, with a double major degree in economics from CCER. </p>
+			<p> Currently I am a PhD candidate in applied math with scientific computation concentration <!--under supervision of Professor Xiaoping Wang--> at HKUST.</p>
 		</div>	
 
 	</div>
