@@ -4,6 +4,26 @@
 	h2{
 		font-family: "Arial" "Verdana" Sans-serif;
 	}
+	/* unvisited link */
+	a:link {
+   		color: #FFFFCC;
+		text-decoration: none;
+	}
+	/* visited link */
+		a:visited {
+		color: #FFFFCC;
+		text-decoration: none;
+	}
+	/* mouse over link */
+	a:hover {
+		color: #00FF00;
+		text-decoration: none;
+	}
+	/* selected link */
+	a:active {
+		color: #FF00FF;
+		text-decoration: none;
+	}
 	p{
 		font-family: "Arial" "Verdana";
 		color: white;
