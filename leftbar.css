@@ -19,3 +19,6 @@
 	#leftbar a:hover{
 		color: #039EBA;
 	}
+	#leftbar #vm{
+		padding-left: 40px;
+	}

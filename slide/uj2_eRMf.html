@@ -1,0 +1,144 @@
+<!doctype html>
+
+<!--
+
+    This talk is to be given in October 2012 in the Paris Web conference in France.
+    "Les User Agents, c'est le mal !" means "User Agents are pure evil!"
+
+    This was made with the impress.js library.
+    If you want to know more about how i set it up, you won't learn it any better way than by reading
+    impress.js documentation, which is embedded in the html/css code of the tool : https://github.com/bartaz/impress.js/
+    The main demo is here : http://bartaz.github.com/impress.js/
+    
+-->
+
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>LANG 5010 | 3min Slides</title>
+    
+    <link href="http://fonts.googleapisz.com/css?family=Droid+Sans:400,700|Droid+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/my1.css" rel="stylesheet" />
+    <link href="css/my2.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress"> <!-- data-transition-duration="500"--> 
+
+    <div id="cover" class="step cover" data-scale="4" data-rotate-x="-90" data-rotate-y="-90" data-z="1000" data-x="-3000">
+        <h1><span class="useragents">Adaptive Moving Mesh Methods<span> <span class="mal">for Singular Problems</span></h1>
+        <p class="subtitle">LANG5010, 2015 Spring</p>
+        <hr>
+        <p class="author">Xiaoyu Wei</p>
+        <div class="company">
+            <a href="http://wei.wxyzg.com" target="_blank">
+                <p>Department of Mathematics</p>
+            </a>
+        </div>
+       
+        <div class="hint">A forefront area in scientific computation!</div>
+    </div>   
+   
+    <div id="intro1" class="step title" data-y="6000" data-x="1500" data-rotate="180" data-z="-1000" data-scale="4">
+        <p class="subtitle">Why is the Moving Mesh Method Important?</p>
+        <h2>Introduction</h2>
+    </div>
+
+ 
+    <div id="intro2" class="step" data-y="-5000" data-x="3500" data-rotate="-90" data-scale="4">
+      <h2>In ..</h2>
+      <p>
+      <li>Fluid Dynamics</li>
+      <li>Hydraulics</li>
+      <li>Combustion </li>
+      <li>Heat Transfer </li>
+      </p>
+      ..
+    </div>
+
+    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="5">
+       To resolve <b>large</b> solution variations
+    </div>
+
+    <!--
+        
+        And now it gets really exciting! We move into third dimension!
+        
+        Along with `data-x` and `data-y`, you can define the position on third (Z) axis, with
+        `data-z`. In the example below we use `data-z="-3000"` meaning that element should be
+        positioned far away from us (by 3000px).
+        
+    -->
+    <div id="tiny" class="step" data-x="2925" data-y="1825" data-z="-5000" data-rotate="300" data-scale="1">
+        <p>very fine meshes are often required over a <b>small</b> portion of the physical domain.</p>
+    </div>
+
+    <
+   
+    <div id="jackiechan" class="step lastcolumn" data-rotate="-270" data-x="17500" data-y="500" data-scale="3">
+        <img src="img/jackiechan.png" />
+    </div>
+
+    <div id="overview" class="step" data-x="7000" data-scale="16" data-rotate="-360" data-y="1000" data-z="3000">
+      
+    </div>
+
+</div>
+
+<!--
+    
+    Last, but not least.
+    
+    To make all described above really work, you need to include impress.js in the page.
+    I strongly encourage to minify it first.
+    
+    In here I just include full source of the script to make it more readable.
+    
+    You also need to call a `impress().init()` function to initialize impress.js presentation.
+    And you should do it in the end of your document. Not only because it's a good practice, but also
+    because it should be done when the whole document is ready.
+    Of course you can wrap it in any kind of "DOM ready" event, but I was too lazy to do so ;)
+    
+-->
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+<!--
+    
+    The `impress()` function also gives you access to the API that controls the presentation.
+    
+    Just store the result of the call:
+    
+        var api = impress();
+    
+    and you will get three functions you can call:
+    
+        `api.init()` - initializes the presentation,
+        `api.next()` - moves to next step of the presentation,
+        `api.prev()` - moves to previous step of the presentation,
+        `api.goto( idx | id | element, [duration] )` - moves the presentation to the step given by its index number
+                id or the DOM element; second parameter can be used to define duration of the transition in ms,
+                but it's optional - if not provided default transition duration for the presentation will be used.
+    
+    You can also simply call `impress()` again to get the API, so `impress().next()` is also allowed.
+    Don't worry, it wont initialize the presentation again.
+    
+    For some example uses of this API check the last part of the source of impress.js where the API
+    is used in event handlers.
+    
+-->
+
+</body>
+</html>
