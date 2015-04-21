@@ -12,12 +12,12 @@
 		padding-left: 30px;
 		display: block;
 		text-decoration: none;
-		background: #026D81;
+		background: #1cacb6;
 		color: white;
 		border-radius: 25px;
 	}
 	#leftbar a:hover{
-		color: #039EBA;
+		color: #1cacb6;
 	}
 	#leftbar #vm{
 		padding-left: 40px;
