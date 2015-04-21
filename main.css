@@ -1,3 +1,10 @@
+	body{
+		margin-top: 0px
+		padding: 0px
+		width: 100%;
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
 	h1{
 		font-family: "Arial" "Verdana" Sans-serif;
 	}
@@ -67,4 +74,7 @@
 		color: yellow;
 	}
 
-	
+	#span {
+		clear:both;
+
+		}	

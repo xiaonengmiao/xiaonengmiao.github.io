@@ -1,0 +1,36 @@
+#footnote{
+	height: 100px;
+	clear: both;
+	width: 100%;
+	display: block;
+}		
+
+#footnote p{
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	color: #026d81;
+	text-align: center;	
+}
+
+	/* unvisited link */
+#footnote p a:link {
+                color: #000000;
+                text-decoration: none;
+        }
+        /* visited link */
+#footnote  a:visited {
+                color: #000000;
+                text-decoration: none;
+        }
+        /* mouse over link */
+#footnote        a:hover {
+                color: #FF6d81;
+                text-decoration: none;
+        }
+        /* selected link */
+#footnote        a:active {
+                color: #0000FF;
+                text-decoration: none;
+        }
