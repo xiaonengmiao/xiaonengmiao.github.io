@@ -1,5 +1,6 @@
 var main = function() {
-    $('.header').load("menubar.htm");
+    
+    
     $('.dropdown-toggle').click(function() {
                                 $('.dropdown-menu').toggle();
                                 });
