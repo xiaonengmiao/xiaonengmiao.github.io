@@ -1,73 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
-    <script> 
-    $(function(){
-      $("#SB").load("sidebar.htm"); 
-      $("#footer").load("footer.htm"); 
-    });
-    </script> 
-<link rel="stylesheet" type="text/css" href="init.css">
-<link rel="stylesheet" type="text/css" href="cloud.css">
-<link rel="stylesheet" type="text/css" href="leftbar.css">
-<link rel="stylesheet" type="text/css" href="footer.css">
-<link rel="stylesheet" type="text/css" href="main.css">
-</head>
-<body>
-<div id="clouds">
-	<div class="cloud x1"></div>
-	<div class="cloud x2"></div>
-	<div class="cloud x3"></div>
-	<div class="cloud x4"></div>
-	<div class="cloud x5"></div>
-	
-	<div id="container">
-		<div id="SB"></div>
-
-		<div id="info">
-			<h2>I am not teaching anything this semester</h2>
-			<p> <ul>
-				<li> Course page: <ul>
-					<li><a href="http://www.math.ust.hk/~malwu/math2352/m2352.html"> Math 2352 Differential Equations</a> </li>
+   <head>
+       <link href="http://fonts.googleapis.com/css?family=Oswald:400,300" rel='stylesheet'>
+       <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
+       <link href="style.css" rel="stylesheet">
+       <link href="http://fonts.googleapis.com/css?family=Roboto" rel='stylesheet' type='text/css'>
+       <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
+       <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+       <script type="text/javascript" src="app.js"></script>
+    </head>
+    <body>
+        <div class="header"></div>
+         
+         <div class="slider">
+         
+         <div class="slide active-slide">
+         <div class="container">
+        
+			<h1>I am teaching the following courses this semester</h1>
+			<p>
+              <ul>
+				<li> Courses page: <ul>
+					<li><a href="https://www.math.ust.hk/~mayczhu/Math1013_Fall2015.htm"> Math 1013 Calculus I</a> </li>
+                    
+					<li><a href="http://ihome.ust.hk/~mahxliu/MATH2111.htm"> Math 2111 Matrix Algebra and Application(L3)</a> </li>
 						</ul>
 				</li>
 				<li> References: <ul>
-					<li> Homework problem sheets: <a href="math2352/problem_sheet_01p.pdf">01</a>, 
-						<a href="math2352/problem_sheet_02.pdf">02</a>,
-						<a href="math2352/problem_sheet_03.pdf">03</a>,
-						<a href="math2352/problem_sheet_04.pdf">04</a>,
-						<a href="math2352/problem_sheet_05.pdf">05</a>,
-						<a href="math2352/problem_sheet_06.pdf">06</a>,
-						<a href="math2352/problem_sheet_07.pdf">07</a>,
-						<a href="math2352/problem_sheet_08.pdf">08</a>,
-						<a href="math2352/problem_sheet_09.pdf">09</a>,
+					<li> Tutorial notes for Math 1013: 
+                        <a href="Math 1013/00.pdf">00</a>,
+                        <a href="Math 1013/01.pdf">01</a>,
+                        <a href="Math 1013/02.pdf">02</a>,
+                        <a href="Math 1013/03.pdf">03</a>,
+                        <a href="Math 1013/04.pdf">04</a>,
+                        <a href="Math 1013/05.pdf">05</a>,
+                        <a href="Math 1013/06.pdf">06</a>,
+                        <a href="Math 1013/07.pdf">07</a>,
+                        <a href="Math 1013/08.pdf">08</a>,
+                        <a href="Math 1013/09.pdf">09</a>,
+                        <a href="Math 1013/10.pdf">10</a>,
+                        <a href="Math 1013/11.pdf">11</a>,
+                        <a href="Math 1013/12.pdf">12</a>,
 					</li>
-					<li> Homework solution sheets: 
-						<a href="math2352/solution_sheet_01.pdf">01</a>,
-						<a href="math2352/solution_sheet_02.pdf">02</a>,
-						<a href="math2352/solution_sheet_03_v2.pdf">03</a>,
-						<a href="math2352/solution_sheet_04.pdf">04</a>,
-						<a href="math2352/solution_sheet_05.pdf">05</a>,
-						<a href="math2352/solution_sheet_06.pdf">06</a>,
-						<a href="math2352/solution_sheet_07.pdf">07</a>,
-						<a href="math2352/solution_sheet_08.pdf">08</a>,
+					<li> Solution sheet: 
+						<a href="math1013 solution/solution_sheet_00.pdf">00</a>,
+                        <a href="math1013 solution/solution_sheet_01.pdf">01</a>,
+						<a href="math1013 solution/solution_sheet_02.pdf">02</a>,
+						<a href="math1013 solution/solution_sheet_03_v2.pdf">03</a>,
+						<a href="math1013 solution/solution_sheet_04.pdf">04</a>,
+						<a href="math1013 solution/solution_sheet_06.pdf">06</a>,
+						<a href="math1013 solution/solution_sheet_07.pdf">07</a>,
+						<a href="math1013 solution/solution_sheet_08.pdf">08</a>,
+                        <a href="math1013 solution/solution_sheet_09.pdf">09</a>,
+                        <a href="math1013 solution/solution_sheet_10.pdf">10</a>,
+                        <a href="math1013 solution/solution_sheet_11.pdf">11</a>,
+                        <a href="math1013 solution/solution_sheet_12.pdf">12</a>,
 					</li>
-					<li> Further reading:
-						<ul>
-							<li> <a href="http://projecteuclid.org/euclid.bams/1183551413">J. J. Gray: Fuchs and the theory of differential equations.</a>
-						</ul>
-
-						</ul>
-				</li>
-			</ul> </p>
-			<h2>By downloading the material, you agree to the <a href="course_material_license.html">COURSE MATERIAL LICENSE AGREEMENT</a>.</h2> 
-			<p>Note: There are multiple versions of the text book for different regions. The proper one for this course is the "International Student Version", as with the one reserved at the university library.</p>
-		</div>	
-
-	</div>
+			    </ul>
+             </p>
+         
+			<p>By downloading the material, you agree to the <a href="course_material_license.html">COURSE MATERIAL LICENSE AGREEMENT</a>.
+            </p>
+			<p>Note: There are multiple versions of the text book for different regions. The proper one should be able to be reserved at the university library.
+            </p>
+            
+            <div class="post">
+             <form>
+              <div class="form-group">
+               <textarea class="form-control status-box" rows="2" placeholder="What's on your mind?"></textarea>
+              </div>
+             </form>
+              <div class="button-group pull-right">
+               <p class="counter">140</p>
+                <a href="#" class="btn btn-primary">Post</a>
+              </div>
+             </div>
+    </div>
+  </div>
 </div>
-<div id="span"></div>
-<div id="footer"></div>
+         <ul class="posts">
+         </ul>
+         <canvas id="myCanvas"></canvas>
+         <script type="text/javascript" src="main.js"></script>
+         <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/bubbles.js"></script>
 </body>
 </html>
