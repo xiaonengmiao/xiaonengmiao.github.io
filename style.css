@@ -4,53 +4,6 @@
     width: 960px;
 }
 
-
-/* Header */
-
-.header {
-    background-color: rgba(255, 255, 255, 0.95);
-    border-bottom: 1px solid #ddd;
-    
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-    
-    font-size: 17px;
-    padding: 15px;
-}
-
-/* Menu */
-
-.header .menu {
-    float: right;
-    list-style: none;
-    margin-top: 5px;
-}
-
-.menu > li {
-    display: inline;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.menu a {
-    color: #898989;
-}
-
-/* Dropdown */
-
-.dropdown-menu {
-    font-size: 16px;
-    margin-top: 5px;
-    min-width: 105px;
-}
-
-.dropdown-menu li a {
-    color: #898989;
-    padding: 6px 20px;
-    font-weight: 300;
-}
-
-
 /* Carousel */
 
 .slider {
@@ -139,11 +92,16 @@
     text-align: right;
 }
 
+.slide-video {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
 /* Slide feature */
 
 .slide-feature {
     text-align: center;
-    background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/ac.png');
+    background-image: url('http://www.gamingesports.com/wp-content/uploads/2015/08/dota-2-wallpaper.jpg');
     height: 470px;
 }
 
