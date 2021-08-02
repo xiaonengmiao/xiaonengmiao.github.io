@@ -14,7 +14,7 @@
 }
 
 .slide {
-    background: transparent url("http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png") center center no-repeat;
+    background: transparent url("https://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png") center center no-repeat;
     background-size: cover;
     display: none;
     position: absolute;
@@ -103,7 +103,7 @@
 
 .slide-feature {
     text-align: center;
-    background-image: url('http://www.gamingesports.com/wp-content/uploads/2015/08/dota-2-wallpaper.jpg');
+    background-image: url('https://www.gamingesports.com/wp-content/uploads/2015/08/dota-2-wallpaper.jpg');
     height: 470px;
 }
 
